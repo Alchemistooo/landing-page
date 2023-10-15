@@ -15,13 +15,13 @@ body {
   background-color: #1f2937;
   display: flex;
   flex-direction: column;
-  padding: 0 100px;
+  padding: 0 450px;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 10px;
+  margin: 10px 0 100px;
 }
 
 .logo {
@@ -38,10 +38,16 @@ nav {
 .header-content {
   display: flex;
   justify-content: space-between;
+  gap: 60px;
+  margin-bottom: 100px;
 }
 
 .hero-content h1 {
   font-size: 48px;
+}
+
+.hero-content p {
+  margin-bottom: 10px;
 }
 
 .hero-content h1, .logo {
@@ -60,4 +66,41 @@ button {
   font-weight: bold;
   color: #f9faf8;
   border-radius: 6px;
+  padding: 5px 20px;
+}
+
+.hero-image {
+  min-width: 150px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hero-signup {
+  align-self: flex-start;
+  text-align: center;
+  border: none;
+}
+
+.hero-signup:hover {
+  border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  border: 1px black solid;
 }

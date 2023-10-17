@@ -17,6 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
+  flex: auto;
 }
 
 .header, 
@@ -29,6 +30,15 @@ nav {
   justify-content: space-between;
   margin: 10px auto 100px;
   width: 1300px;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 .logo {
@@ -154,6 +164,26 @@ button {
   align-self: flex-end;
   font-weight: bold;
   font-size: 20px;
+}
+
+.cta-container {
+  background-color: #3882f6;
+  margin: 150px auto;
+  padding: 50px 100px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+.cta-text h3{
+  color: #f9faf8;
+  font-weight: 800;
+}
+
+.cta-text p {
+  color: #e5e7eb;
 }
 
 .cta-signup {
